@@ -21,6 +21,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: '👋 Thank you! We appreciate your contribution to this project.'
+              })
 
   apply-label:
     runs-on: ubuntu-latest
